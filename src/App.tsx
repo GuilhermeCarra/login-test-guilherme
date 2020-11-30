@@ -3,6 +3,8 @@ import { Switch, Route } from "react-router-dom";
 import ROUTES from "./utils/routes";
 
 import Home from "./pages/Home/Home";
+import Login from "./pages/Auth/Login/Login";
+import Signup from "./pages/Auth/Signup/Signup";
 
 function App() {
   return (
@@ -11,10 +13,10 @@ function App() {
         <Home />
       </Route>
       <Route path={ROUTES.LOGIN}>
-        <h1>LOGIN</h1>
+        <Login />
       </Route>
       <Route path={ROUTES.SIGNUP}>
-        <h1>SIGN UP</h1>
+        <Signup />
       </Route>
     </Switch>
   );
