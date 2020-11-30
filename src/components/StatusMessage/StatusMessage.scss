@@ -1,0 +1,11 @@
+@import "../../styles/settings/variables";
+
+.msg {
+  border-radius: 8px;
+  &__error {
+    background-color: $danger;
+  }
+  &__success {
+    background-color: $success;
+  }
+}
