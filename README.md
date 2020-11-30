@@ -5,7 +5,8 @@ Hello Raul and Willy,
 
 It's Guilherme and this repository is for the login form page test with React, Typescript and Jest.
 
-I did a **Login Page** and a **Sign Up page** with a rapid form validation to check if the inputs are empty. If you take a deeper look I used a timeout to represent a server processing the credentials.
+I did a **Login Page** and a **Sign Up page** with a rapid form validation to check if the inputs are empty.
+If you take a deeper look I used a timeout to represent a server processing the credentials.
 
 Also, you can check the tests suits wih **npm test**
 
