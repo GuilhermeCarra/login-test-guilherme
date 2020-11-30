@@ -1,0 +1,31 @@
+@import "../../../styles/settings/variables";
+
+.signup {
+  &__icon {
+    svg {
+      opacity: 0;
+      animation: bounceIn 360ms 1 forwards 600ms;
+    }
+    &.validating {
+      animation: bounceRight 1200ms infinite ease-in 600ms;
+    }
+  }
+}
+
+@keyframes bounceRight {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: translateX(15px);
+  }
+  50% {
+    transform: translateX(25px);
+  }
+  70% {
+    transform: translateX(28px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
